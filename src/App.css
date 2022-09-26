@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.attempt-counter{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#root{
+  background-image: url('./blackorange.png'); 
+}
+
+.hangman-1{
+  content: url("./pages/hangmandrawings/state1.GIF");
+}
+
+.hangman-2{
+  content: url("./pages/hangmandrawings/state2.GIF");
+}
+
+.hangman-3{
+  content: url("./pages/hangmandrawings/state3.GIF");
+}
+
+.hangman-4{
+  content: url("./pages/hangmandrawings/state4.GIF");
+}
+
+.hangman-5{
+  content: url("./pages/hangmandrawings/state5.GIF");
+}
+
+.hangman-6{
+  content: url("./pages/hangmandrawings/state6.GIF");
+}
+
+.hangman-7{
+  content: url("./pages/hangmandrawings/state7.GIF");
+}
+
+.hangman-8{
+  content: url("./pages/hangmandrawings/state8.GIF");
+}
+
+.hangman-9{
+  content: url("./pages/hangmandrawings/state9.GIF");
+}
+
+.hangman-10{
+  content: url("./pages/hangmandrawings/state10.gif");
+}
+
+.hangman-11{
+  content: url("./pages/hangmandrawings/state11.GIF");
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
