@@ -11,4 +11,4 @@ The game can be reset at any time by clicking the reset button at the bottom of 
 
 If you need a refresher on how to play please select the button labelled "how to play"
 
-![Example of a game in progress](app1.png)
+![Example of a game in progress](app1.PNG)
